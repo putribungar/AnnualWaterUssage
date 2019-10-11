@@ -9,7 +9,9 @@ The Dataset provides the annual water usage in Baltimore from 1885 to 1963, or 7
 I used ARIMA (AutoRegressive Integrated Moving Average) method to do time series analysis for analyzing time series data to extract meaningful statistics and other data characteristics. An autoregressive integrated moving average model is a form of regression analysis that gauges the strength of one dependent variable relative to other changing variables. The model's goal is to predict future securities or financial market moves by examining the differences between values in the series instead of through actual values.
 <br>
 <br>
-An ARIMA model can be understood by outlining each of its components as follows:
-Autoregression (AR) refers to a model that shows a changing variable that regresses on its own lagged, or prior, values.
-Moving average (MA) incorporates the dependency between an observation and a residual error from a moving average model applied to lagged observations.
-Autoregression Moving average (ARMA) Sometimes stationary random processes have two characteristics of AR and MA. Random processes like this need to be approached with a mixed model between autoregressive and moving average average called ARMA (p, q).
+An ARIMA model can be understood by outlining each of its components as follows:<br>
+Autoregression (AR) refers to a model that shows a changing variable that regresses on its own lagged, or prior, values.<br>
+Moving average (MA) incorporates the dependency between an observation and a residual error from a moving average model applied to lagged observations.<br>
+Autoregression Moving average (ARMA) Sometimes stationary random processes have two characteristics of AR and MA. Random processes like this need to be approached with a mixed model between autoregressive and moving average average called ARMA (p, q).<br>
+<br>
+<br>
